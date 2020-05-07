@@ -13,6 +13,7 @@ frontend/build
 
 # Configurations
 config/default.json
+config/production.json
 
 # misc
 storeClass
