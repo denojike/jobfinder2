@@ -1,0 +1,4 @@
+{
+  "DB_URI": "mongodb+srv://denojike:DENco_2_da2@meetupcluster-uk03g.mongodb.net/jobfinder?retryWrites=true&w=majority",
+  "jwtSecret": "jwtSecretmychairman"
+}
