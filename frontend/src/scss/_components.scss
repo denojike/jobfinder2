@@ -1,0 +1,73 @@
+//banner-section begin
+.banner-section {
+  padding-bottom: 5rem;
+  h1 {
+    @media #{$md} {
+      font-size: 1.9rem;
+    }
+    @media #{$sm} {
+      font-size: 1.6rem;
+    }
+  }
+}
+//banner-section end
+
+//job-category begin
+.job-category {
+  padding: 5rem;
+  h1 {
+    @media #{$md} {
+      font-size: 1.9rem;
+    }
+    @media #{$sm} {
+      font-size: 1.6rem;
+    }
+  }
+  .single-category {
+    border: 1px solid rgb(218, 252, 239);
+    padding: 44px 0;
+    @include transition(0.4s);
+    .category-ion {
+      span {
+        font-size: 60px;
+        margin-bottom: 13px;
+        color: #014b85;
+        @include transition(0.3s);
+      }
+    }
+    .category-cap {
+      h5 {
+        a {
+          font-weight: 600;
+          font-size: 18px;
+          color: #001f38;
+          line-height: 1.4;
+          @include transition(0.3s);
+        }
+      }
+      span {
+        color: #fb246a;
+        font-size: 18px;
+      }
+    }
+
+    // Hover Effect
+    &:hover {
+      box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+      .category-ion {
+        span {
+          color: $theme-color;
+        }
+      }
+      .category-cap {
+        h5 {
+          a {
+            color: $theme-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+//job-category end

@@ -1,0 +1,38 @@
+.main-nav {
+  @media #{$md} {
+    display: none;
+  }
+  @media #{$sm} {
+    display: none;
+  }
+}
+
+.drop-menu {
+  position: absolute;
+  right: 10%;
+  top: 8%;
+  font-size: larger;
+  cursor: pointer;
+  @media #{$lg} {
+    display: none !important;
+  }
+  @media #{$laptop} {
+    display: none !important;
+  }
+}
+.mobile-menu {
+  position: absolute;
+  top: 16%;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  opacity: 0;
+  transition: 0.3s linear;
+  padding-bottom: 2rem;
+  @media #{$laptop} {
+    display: none !important;
+  }
+  @media #{$lg} {
+    display: none !important;
+  }
+}

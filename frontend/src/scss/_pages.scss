@@ -1,0 +1,50 @@
+.admin-page {
+  height: 80vh;
+  @media #{$md} {
+    width: 50%;
+  }
+  @media #{$laptop} {
+    width: 50%;
+  }
+}
+
+//JOB DETAIL
+.job-detail {
+  padding: 30px 30px 30px 30px;
+  border: 1px solid #ededed;
+  ul {
+    li {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      &:last-child {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+//JOB LISTING
+.job-listing-area {
+  h4 {
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  padding: 3rem 0;
+
+  .listing-top {
+    margin-bottom: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    span {
+      padding-right: 15px;
+      color: #1e2147;
+      font-size: 16px;
+    }
+    .menu-toggle {
+      cursor: pointer;
+    }
+  }
+}
